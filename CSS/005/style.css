@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box; /*faz com que as propriedades de largura (width) e de altura (height) incluem o tamanho padding size 
+                            e a propriedade border, ou seja, quando definirmos um padding para esse elemento, o width irá considerar esse 
+                            padding que adicionamos*/
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: #FF1493;
+    border: 10px solid blue;
+}
+
+/*BOX SIZING*/
+
