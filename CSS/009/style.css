@@ -1,0 +1,38 @@
+/*PSEUDO ELEMENTOS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: blue;
+}
+
+a::after{
+    content: "🚀";
+}
+
+a::before{
+    content: "😎";
+}
+
+
+/*
+input{
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder{ Configurações que vai mudar somente o placeholder
+    color: pink;
+}
+
+p{
+    color: blue;
+}
+
+p::first-line{ /*Vai mudar somente a primira linha do paragrafo
+    color: red;
+}*/
