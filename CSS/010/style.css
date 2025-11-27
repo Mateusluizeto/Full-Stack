@@ -7,13 +7,32 @@
 :disabled -> elemento desabilitado / button / input
 :enabled -> elemento está habilitado
 :focus -> é aplicada quando um elemento recebe foco, o que pode ocorrer quando o usuário seleciona o elemento
-:empty -> elemento que nao tem filho
+:empty -> elemento que está vazio
 
 :first-child -> primeiro filho / ex: primeira li de uma ul / primeiro span de uma div
 :first-of-type -> primeiro elemento de seu tipo entre os filhos de seu elemento pai
 :last-child -> último filho
 :last-of-type -> último elemento de seu tipo entre os filhos de seu elemento pai
 :not() -> estiliza os elementos, exceto o que está dentro do ()
-
-
+:nth-child() -> seleciona o elemento baseado na sua posição. Ex: :nth-child(3)
+:nth-last-child() -> seleciona o elemento baseado na sua posição, contando de trás para frente.
 */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 20px;
+}
+
+li:nth-child(3){
+    color: red;
+}
+
+.container :nth-child(1){
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
