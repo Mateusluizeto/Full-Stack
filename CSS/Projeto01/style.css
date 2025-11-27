@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    margin-top: 44px;
+    margin-left: 76px;
+    word-spacing: 23px;
+}
+
+a{
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    cursor: pointer;
+}
+
+button#login{
+    height: 41px;
+    width: 130px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    cursor: pointer;
+    background-color: #665AE1;
+    border: none;
+    color: white;
+    border-radius: 20.5px;
+    transition: 0.3s;
+}
+
+button#login:hover{
+    background-color: #7468ff;
+}
+
+main{
+    margin-top: 50px;;
+    display: flex;
+    gap: 100px;
+}
+
+main > div > img{
+    margin-left: 125px;
+}
+
+main > div > h1{
+    font-size: 100px;
+    font-weight: 900;
+    height: 122px;
+    width: 513px;
+    color: #515151;
+    margin-top: 28px;
+}
+
+main > div > h2{
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+}
+
+p{
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+
+button#explore{
+    background-color: #ADFF00;
+    width: 239px;
+    height: 64px;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 15px 46px 22px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+button#explore:hover{
+     background-color: #ccff5f
+}
