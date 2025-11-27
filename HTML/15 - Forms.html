@@ -1,0 +1,34 @@
+<!--
+    - Capturar dados de entrada
+    - Input -> Entrada
+
+    Action -> define para qual URL será enciada os dados, vazio envia para a mesma url 
+    Method
+        - GET | O method get serve para enviar as informações pela URL
+        - POST | O method post serve para enviar dados mais sigilosos, não sendo vísiveis pela URL
+-->
+
+<form method="post" enctype="multipart/form-data"> <!--Esse modo de enctype serve pra "avisar" que no meu form será enviado um arquivo Ex: foto-->
+    <h1>Digite seu Endereço</h1>
+    <label>
+        Rua:
+        <input type="text" name="rua" autocomplete="street-address">
+    </label>
+
+    <label>
+        Número:
+        <input type="number" name="numero">
+    </label>
+
+    <label>
+        Email:
+        <input type="number" name="email">
+    </label>
+
+    <label>
+        Foto:
+        <input type="file" name="email">
+    </label>
+    <button type="reset">Resetar</button> <!--Dentro de um form o button de type reset serve para resetar as informações presente nos inputs-->
+    <button type="submit">Enviar dados</button>
+</form>
