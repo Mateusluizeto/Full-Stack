@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+main{
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+main > h1{
+    font-weight: 400;
+    font-size: 36px;
+    width: 268px;
+    line-height: 52px;
+    color: #5D5D7D;
+    text-align: center;
+}
+
+p{
+    width: 296px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5D5D7D;
+    opacity: 0.6;
+}
+
+button{
+    width: 269px;
+    height: 62px;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #9499EA;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 10px #9499EA19;
+    border-radius: 999px;
+    cursor: pointer;
+    margin-bottom: 47px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #b9bcf3;
+}
+
+section{
+    background-color: #E6E6E6;
+    height: 52vh;
+    padding: 46px 53px 46px 51px;
+    display: flex;
+    justify-content: center;
+}
+
+#desk-top{
+    display: none;
+}
+
+nav{
+    display: none;
+}
+
+@media (min-width: 1000px){
+    #container{
+        display: flex;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+        margin-left: 136px;
+        margin-top: 300px;
+    }
+
+    main > h1{
+        font-size: 70px;
+        line-height: 80px;
+        width: 368px;
+        text-align: left;
+    }
+
+    main > p {
+        font-size: 28px;
+        line-height: 48px;
+        width: 540px;
+    }
+
+    section{
+        height: 100vh;
+        width: 491px;
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    section > #mobile{
+        display: none;
+    }
+
+    section > #desk-top{
+        display: block;
+        position: relative;
+        width: 456px;
+        right: 190px;
+        top: 80px;
+    }
+
+    nav{
+        display: block;
+        display: flex;
+        gap: 41px;
+    }
+
+    a{
+        font-weight: 400;
+        font-size: 28px;
+        color: #5D5D7D;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    a:hover{
+        opacity: 40%;
+    }
+}
