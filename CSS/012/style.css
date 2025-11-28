@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: calc(100vh - 200px); /*Calculos para definir largura e a altura*/
+    width: calc((50vw + 200px) / 2);
+    background-color: red;
+}
