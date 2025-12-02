@@ -7,9 +7,13 @@
 
 
 function sum(number1, number2){ // Parâmetros
-    console.log(number1 + number2)
+    const result = number1 + number2
+    return result
 }
 
-sum(2,3) // Argumentos
-sum(5,5)
-sum(30,20)
+const firstNumber = 10
+const seccondNumber = 20
+
+console.log(`O primeiro número é ${firstNumber}`)
+console.log(`O segundo número é ${seccondNumber}`)
+console.log(`E a soma dos dois é ${sum(firstNumber, seccondNumber)}`)
