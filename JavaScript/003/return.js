@@ -11,6 +11,11 @@ function sum(number1, number2){ // Parâmetros
     return result
 }
 
+/*const sum = function (number1, number2){ // Parâmetros
+    const result = number1 + number2
+    return result                       OUTRA MANEIRA DE DELACLARAR A FUNÇÃO (FUNÇÃO ANÔNIMA)
+} */
+
 const firstNumber = 10
 const seccondNumber = 20
 
