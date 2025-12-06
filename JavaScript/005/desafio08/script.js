@@ -23,7 +23,7 @@ function convert(){
     } else if(coinOptions.value == 'Euro'){
         const resultEuro = (Number(amountOfMoney.value) / 6.34).toFixed(2)
             firstValuePosition.innerHTML = `R$ ${Number(amountOfMoney.value).toLocaleString('pt-BR')}`
-            seccondValuePosition.innerHTML = `US$ ${Number(resultEuro).toLocaleString('pt-BR')}`
+            seccondValuePosition.innerHTML = `€ ${Number(resultEuro).toLocaleString('pt-BR')}`
             imgValue.innerHTML = '<img src="./assets/euro.svg" alt="">'
             SeccondCoinPositon.innerHTML = 'Euro'
 
