@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background-color: #1B83E2;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1{
+    font-weight: 400;
+    font-size: 24px;
+    color: #F4F4F4;
+}
+
+main{
+    margin-top: 23px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+select , input{
+    width: 100% ;
+    border: 1px solid #BBBBBB;
+    font-weight: 700;
+    color: #555555;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+}
+
+.bold{
+    font-weight: 700
+}
+
+.sifao{
+   font-weight: 400;
+}
+
+div + div {
+    margin-top: 24px;
+}
+
+button{
+    width: 100%;
+    margin-top: 24px;
+    background-color: #1B83E2;
+    border-radius: 25px;
+    height: 48px;
+    border: none;
+    color: #F4F4F4;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #0c8aff;
+}
+
+div#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 36px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.contryCoin{
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.valueCoin{
+    font-weight: 700;
+    font-size: 20px;
+    color: #1B83E2;
+    margin-bottom: 15px;
+}
+
+#arrow{
+    margin-bottom: 13px;
+}
