@@ -30,7 +30,7 @@ function convert(){
     } else if(coinOptions.value == 'Bitcoin'){
         const resultBitcoin = (Number(amountOfMoney.value) / 486000).toFixed(2) 
             firstValuePosition.innerHTML = `R$ ${Number(amountOfMoney.value).toLocaleString('pt-BR')}`
-            seccondValuePosition.innerHTML = `US$ ${Number(resultBitcoin).toLocaleString('pt-BR')}`
+            seccondValuePosition.innerHTML = `BTC ${Number(resultBitcoin).toLocaleString('pt-BR')}`
             imgValue.innerHTML = '<img src="./assets/bitcoin.png" alt="">'
             SeccondCoinPositon.innerHTML = 'Bitcoin'
     }
