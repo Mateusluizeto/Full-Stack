@@ -7,12 +7,16 @@ const app = express()
 // Importa a biblioteca UUID para gerar IDs únicos
 const uuid = require('uuid')
 
+const cors = require('cors') // Importando o cors
+
 // Define a porta onde o servidor vai rodar
-const port = 3000
+const port = 3001
 
 // MIDDLEWARE GLOBAL: Converte o corpo das requisições JSON em objetos JavaScript
 // Sem isso, request.body seria undefined
 app.use(express.json())
+
+app.use(cors()) // Assim eu habilito que as rotas estejam disponíveis para o front end acessar
 
 // Array que simula um banco de dados (armazena os usuários em memória)
 const users = []
@@ -125,7 +129,7 @@ app.listen(port, () => {
 /*
     - Query params => meusite.com/users?nome+rodolfo&age=28 // FILTROS
     - Route params => /users/2      // BUSCAR, DELETAR OU ATUALIZAR ALGO ESPECÍFICO
-    - Request Body => {"name":"Rodolfo", "age":}
+    - Request Body => {"name":"Rodolfo", "age": 18}
 
     - GET           => Buscar informação no back-end
     - POST          => Criar informação no back-end
