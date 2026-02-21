@@ -6,5 +6,5 @@ export const ContainerStyles = styled.div `
     align-items: center;
 
     background-color: #0A0A10;
-    height: 100vh;
+    height: 100%;
 `
