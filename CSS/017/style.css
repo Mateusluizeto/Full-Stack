@@ -10,10 +10,7 @@
     background-color: black;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* == grid-template-columns: 1fr 1fr 1fr;*/
-    grid-template-rows: 100px 200px 100px; /* 1°linha: 100px, 2°linha: 200px, 3°linha: 100px,*/
-    row-gap: 10px; /* espaço entre as linhas */
-    column-gap: 10px; /* espaço entre as colunas */
-    /* gap: 10px; espaço entre as linhas e colunas */
+    grid-auto-rows: minmax(500px, auto);
 }   
 
 .space{
@@ -23,7 +20,7 @@
 
 .one{
     background-color: #333453;
-}
+}               
 
 .two{
     background-color: #259b11;
