@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(161, 160, 160);
+    display: grid;
+
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+
+    justify-content: center; /*Alinha todos os elementos horizontalmente no container*/
+    align-content: center;  /*Alinha todos os elementos verticalmente no container*/
+    justify-items: center; /*Alinha cada elemento horizontalmente dentro de sua célula*/
+    align-items: center; /*Alinha cada elemento verticalmente dentro de sua célula*/
+}
+
+.space{
+    color: black;
+    font-size: 30px;
+    background-color: rgb(162, 255, 68);
+}
